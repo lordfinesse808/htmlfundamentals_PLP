@@ -1,0 +1,64 @@
+ < !DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>My Personal Website </title><style>body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Header Styling */
+ .header {
+     background-color: #333;
+     padding: 20px;
+     color: white;
+     text-align: center;
+ }
+
+ /* Introduction Section */
+ .introduction {
+     background-color: #f4f4f4;
+     padding: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ /* Skills Display */
+ .skills {
+     background-color: #ddd;
+     padding: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ .skills ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ .skills li {
+     border: 1px solid #aaa;
+     padding: 10px;
+     margin-bottom: 10px;
+ }
+
+ /* Contact Information */
+ .contact {
+     background-color: #777;
+     padding: 20px;
+     color: white;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ /* Responsive Design */
+ @media only screen and (max-width: 600px) {
+
+     .header,
+     .introduction,
+     .skills,
+     .contact {
+         padding: 10px;
+     }
+ }
+
+ </style></head></body>< !-- Header --><div class="header"><h1>Martin's Website</h1>
+ </div>< !-- Introduction Section --><div class="introduction"><p>Hello,
+ I'm Martin. I' m an upcoming Python developer with interest in Video production and CLoud computing based in Lagos.</p></div>< !-- Skills Display --><div class="skills"><h2>Skills</h2><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>Responsive Web Design</li></ul></div>< !-- Contact Information --><div class="contact"><h2>Contact Me</h2><p>Email: justin_m01@outlook.com</p><p>LinkedIn : linkedin/justin808</p></div></body></html>
